@@ -1,0 +1,16 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": {
+    "kind": "Listing",
+    "data": {
+      "modhash": "1w0q76uzo565cce0be0d5f4894174e9ccebba5a609a6837e38",
+      "dist": 0,
+      "facets": {},
+      "after": null,
+      "geo_filter": "",
+      "children": [],
+      "before": null
+    }
+  }
+}

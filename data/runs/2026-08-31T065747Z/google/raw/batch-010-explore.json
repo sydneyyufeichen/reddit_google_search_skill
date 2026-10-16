@@ -1,0 +1,823 @@
+{
+  "widgets": [
+    {
+      "request": {
+        "time": "2026-05-31 2026-08-31",
+        "resolution": "DAY",
+        "locale": "en-US",
+        "comparisonItem": [
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "tailbone pain"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "cough"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "recurrent infections"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "flu"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "lineAnnotationText": "Search interest",
+      "bullets": [
+        {
+          "text": "tailbone pain"
+        },
+        {
+          "text": "cough"
+        },
+        {
+          "text": "recurrent infections"
+        },
+        {
+          "text": "flu"
+        },
+        {
+          "text": "headache"
+        }
+      ],
+      "showLegend": false,
+      "showAverages": true,
+      "helpDialog": {
+        "title": "Interest over time",
+        "content": "Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term."
+      },
+      "token": "ANI_2wMAAAAAapZ3kkwF3_2MWkXstVLiVPKTqjWscwxT",
+      "id": "TIMESERIES",
+      "type": "fe_line_chart",
+      "title": "Interest over time",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "tailbone pain"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "cough"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "recurrent infections"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "flu"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "dataMode": "PERCENTAGES",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "showLegend": false,
+      "helpDialog": {
+        "title": "Compared breakdown by region",
+        "content": "See which term ranked highest in each region during the specified time frame. Values are scaled from 0 to 100, where 100 is the region with peak popularity, a value of 50 is the region where the term is half as popular, and a value of 0 means that term was less than 1% as popular as the peak."
+      },
+      "bullets": [
+        {
+          "value": "tailbone pain",
+          "color": "PALETTE_COLOR_1"
+        },
+        {
+          "value": "cough",
+          "color": "PALETTE_COLOR_2"
+        },
+        {
+          "value": "recurrent infections",
+          "color": "PALETTE_COLOR_3"
+        },
+        {
+          "value": "flu",
+          "color": "PALETTE_COLOR_4"
+        },
+        {
+          "value": "headache",
+          "color": "PALETTE_COLOR_5"
+        }
+      ],
+      "token": "ANI_2wMAAAAAapZ3ktpDagWGG942zfYO1HCx1H7ovlPF",
+      "id": "GEO_MAP",
+      "type": "fe_multi_heat_map",
+      "title": "Compared breakdown by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "tailbone pain"
+      },
+      "id": "TITLE_0",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "tailbone pain"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_1",
+      "index": 0,
+      "bullet": "tailbone pain",
+      "token": "ANI_2wMAAAAAapZ3kqu_j1TVs6fjHYjxep50li7VBuWJ",
+      "id": "GEO_MAP_0",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "tailbone pain"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_1",
+      "keywordName": "tailbone pain",
+      "token": "ANI_2wMAAAAAapZ3kml33ib2AKfR3MuNKNQo_XFinbuC",
+      "id": "RELATED_QUERIES_0",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "cough"
+      },
+      "id": "TITLE_1",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "cough"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_2",
+      "index": 1,
+      "bullet": "cough",
+      "token": "ANI_2wMAAAAAapZ3kjrv6qgAFHR9thE_6iypzJcFP9aH",
+      "id": "GEO_MAP_1",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "cough"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_2",
+      "keywordName": "cough",
+      "token": "ANI_2wMAAAAAapZ3klfHTH8yYWoEOKuiPPTDlHiKRxJq",
+      "id": "RELATED_QUERIES_1",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "recurrent infections"
+      },
+      "id": "TITLE_2",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "recurrent infections"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_3",
+      "index": 2,
+      "bullet": "recurrent infections",
+      "token": "ANI_2wMAAAAAapZ3kjMv3i4WACaDpSA_XRH4DxDr6EDs",
+      "id": "GEO_MAP_2",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "recurrent infections"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_3",
+      "keywordName": "recurrent infections",
+      "token": "ANI_2wMAAAAAapZ3kuxbvm1IfmAUeBibrDxUCwKd8a1e",
+      "id": "RELATED_QUERIES_2",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "flu"
+      },
+      "id": "TITLE_3",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "flu"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_4",
+      "index": 3,
+      "bullet": "flu",
+      "token": "ANI_2wMAAAAAapZ3kiYIW5fPZWx1SICodZdVqLgR8n4f",
+      "id": "GEO_MAP_3",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "flu"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_4",
+      "keywordName": "flu",
+      "token": "ANI_2wMAAAAAapZ3kgu7_Lbyb2ifG4xZOEKEsOeg_v_q",
+      "id": "RELATED_QUERIES_3",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "headache"
+      },
+      "id": "TITLE_4",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_5",
+      "index": 4,
+      "bullet": "headache",
+      "token": "ANI_2wMAAAAAapZ3ktdaj7JB5rBmVQC_84Y2w_DeCHfv",
+      "id": "GEO_MAP_4",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "headache"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_5",
+      "keywordName": "headache",
+      "token": "ANI_2wMAAAAAapZ3kh5Pku2NyOqRnLZ5zVyuHjph-pRX",
+      "id": "RELATED_QUERIES_4",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "tailbone pain",
+      "name": "tailbone pain",
+      "type": "Search term"
+    },
+    {
+      "keyword": "cough",
+      "name": "cough",
+      "type": "Search term"
+    },
+    {
+      "keyword": "recurrent infections",
+      "name": "recurrent infections",
+      "type": "Search term"
+    },
+    {
+      "keyword": "flu",
+      "name": "flu",
+      "type": "Search term"
+    },
+    {
+      "keyword": "headache",
+      "name": "headache",
+      "type": "Search term"
+    }
+  ],
+  "timeRanges": [
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days"
+  ],
+  "shareText": "Explore search interest for tailbone pain, cough, recurrent infections, flu, headache by time, location and popularity on Google Trends",
+  "shouldShowMultiHeatMapMessage": false
+}

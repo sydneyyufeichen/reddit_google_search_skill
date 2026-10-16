@@ -1,0 +1,1004 @@
+{
+  "rows": {
+    "stress": {
+      "share": 0.11588305261642187,
+      "recent_share": 0.11780683072454382,
+      "prior_share": 0.1269411662734812,
+      "change": -0.07195723670332788,
+      "matches": 47,
+      "recent_matches": 31,
+      "prior_matches": 10,
+      "rank": 1
+    },
+    "anxiety": {
+      "share": 0.06424703508591127,
+      "recent_share": 0.06368213281500495,
+      "prior_share": 0.04935321237298366,
+      "change": 0.2903340988977865,
+      "matches": 25,
+      "recent_matches": 18,
+      "prior_matches": 2,
+      "rank": 2
+    },
+    "depression": {
+      "share": 0.028242839333461025,
+      "recent_share": 0.03491515283383904,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 11,
+      "recent_matches": 10,
+      "prior_matches": 0,
+      "rank": 12
+    },
+    "adhd": {
+      "share": 0.0038975188989486013,
+      "recent_share": 0.0,
+      "prior_share": 0.022555810308348082,
+      "change": -1.0,
+      "matches": 1,
+      "recent_matches": 0,
+      "prior_matches": 1,
+      "rank": 46
+    },
+    "ptsd": {
+      "share": 0.011821952014353139,
+      "recent_share": 0.016159680575671128,
+      "prior_share": 0.009299945241524565,
+      "change": 0.7376102929636206,
+      "matches": 6,
+      "recent_matches": 5,
+      "prior_matches": 1,
+      "rank": 30
+    },
+    "diabetes": {
+      "share": 0.01490722255517178,
+      "recent_share": 0.009474193998253756,
+      "prior_share": 0.05161234647258967,
+      "change": -0.8164355111565152,
+      "matches": 4,
+      "recent_matches": 2,
+      "prior_matches": 2,
+      "rank": 26
+    },
+    "weight": {
+      "share": 0.02001335333629112,
+      "recent_share": 0.020671593487046922,
+      "prior_share": 0.03045515856786208,
+      "change": -0.32124492338514044,
+      "matches": 10,
+      "recent_matches": 7,
+      "prior_matches": 2,
+      "rank": 19
+    },
+    "chest_pain": {
+      "share": 0.001874716503686629,
+      "recent_share": 0.002965726847738286,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 1,
+      "recent_matches": 1,
+      "prior_matches": 0,
+      "rank": 50
+    },
+    "thyroid": {
+      "share": 0.009450665715441599,
+      "recent_share": 0.010590336113986732,
+      "prior_share": 0.01595089732228263,
+      "change": -0.336066435636035,
+      "matches": 4,
+      "recent_matches": 3,
+      "prior_matches": 1,
+      "rank": 34
+    },
+    "blood_pressure": {
+      "share": 0.014696207719751476,
+      "recent_share": 0.004100159426126222,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 5,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 27
+    },
+    "heart_recovery": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 53
+    },
+    "lipedema": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 54
+    },
+    "palpitations": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 55
+    },
+    "diarrhea": {
+      "share": 0.003941328212994731,
+      "recent_share": 0.0,
+      "prior_share": 0.002547262389760055,
+      "change": -1.0,
+      "matches": 2,
+      "recent_matches": 0,
+      "prior_matches": 1,
+      "rank": 45
+    },
+    "constipation": {
+      "share": 0.015733885878510347,
+      "recent_share": 0.01554524398302113,
+      "prior_share": 0.018943121142355447,
+      "change": -0.17937261414313133,
+      "matches": 7,
+      "recent_matches": 4,
+      "prior_matches": 2,
+      "rank": 24
+    },
+    "nausea": {
+      "share": 0.019371502977666457,
+      "recent_share": 0.021658163590007783,
+      "prior_share": 0.01953873363079397,
+      "change": 0.10847325109512163,
+      "matches": 8,
+      "recent_matches": 6,
+      "prior_matches": 1,
+      "rank": 21
+    },
+    "ibs": {
+      "share": 0.004275617248835953,
+      "recent_share": 0.006067551992729605,
+      "prior_share": 0.002547262389760055,
+      "change": 1.381989392659761,
+      "matches": 3,
+      "recent_matches": 2,
+      "prior_matches": 1,
+      "rank": 43
+    },
+    "stomach_pain": {
+      "share": 0.014116228959039,
+      "recent_share": 0.021635007813236608,
+      "prior_share": 0.002547262389760055,
+      "change": 7.493435109083743,
+      "matches": 6,
+      "recent_matches": 5,
+      "prior_matches": 1,
+      "rank": 28
+    },
+    "bloating": {
+      "share": 0.029415548257212557,
+      "recent_share": 0.026612730271939312,
+      "prior_share": 0.047330502898631686,
+      "change": -0.43772559676925216,
+      "matches": 12,
+      "recent_matches": 6,
+      "prior_matches": 3,
+      "rank": 11
+    },
+    "gallbladder": {
+      "share": 0.004386076096545131,
+      "recent_share": 0.0069385977080625265,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 1,
+      "recent_matches": 1,
+      "prior_matches": 0,
+      "rank": 42
+    },
+    "reflux": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 56
+    },
+    "bad_breath": {
+      "share": 0.010814200696624454,
+      "recent_share": 0.01710763482357984,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 3,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 32
+    },
+    "h_pylori": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 57
+    },
+    "acne": {
+      "share": 0.015485110589240092,
+      "recent_share": 0.006665302700059032,
+      "prior_share": 0.024073932057339386,
+      "change": -0.7231319468633712,
+      "matches": 11,
+      "recent_matches": 3,
+      "prior_matches": 4,
+      "rank": 25
+    },
+    "allergy": {
+      "share": 0.022705047946508853,
+      "recent_share": 0.021630257229772933,
+      "prior_share": 0.05227005049284875,
+      "change": -0.5861825839878949,
+      "matches": 8,
+      "recent_matches": 4,
+      "prior_matches": 4,
+      "rank": 16
+    },
+    "eczema": {
+      "share": 0.020667574718559987,
+      "recent_share": 0.02053388764270172,
+      "prior_share": 0.044489544765811614,
+      "change": -0.5384558832689794,
+      "matches": 10,
+      "recent_matches": 7,
+      "prior_matches": 3,
+      "rank": 18
+    },
+    "hair_loss": {
+      "share": 0.03649334324147452,
+      "recent_share": 0.036493447092717644,
+      "prior_share": 0.002547262389760055,
+      "change": 13.326536300076736,
+      "matches": 11,
+      "recent_matches": 6,
+      "prior_matches": 1,
+      "rank": 7
+    },
+    "itching": {
+      "share": 0.016768824220863898,
+      "recent_share": 0.020570523824416778,
+      "prior_share": 0.021792582215410913,
+      "change": -0.05607680535122361,
+      "matches": 6,
+      "recent_matches": 4,
+      "prior_matches": 2,
+      "rank": 23
+    },
+    "rash": {
+      "share": 0.018838041754295362,
+      "recent_share": 0.013402250849045297,
+      "prior_share": 0.014168356457520957,
+      "change": -0.054071593326478595,
+      "matches": 6,
+      "recent_matches": 2,
+      "prior_matches": 2,
+      "rank": 22
+    },
+    "sinus": {
+      "share": 0.004948917937047061,
+      "recent_share": 0.007828991084407405,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 3,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 41
+    },
+    "back_pain": {
+      "share": 0.04010480577863572,
+      "recent_share": 0.04048694986378529,
+      "prior_share": 0.03539133327558315,
+      "change": 0.14397922080312409,
+      "matches": 14,
+      "recent_matches": 10,
+      "prior_matches": 1,
+      "rank": 5
+    },
+    "sciatica": {
+      "share": 0.032552561190980205,
+      "recent_share": 0.046927575073107325,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 13,
+      "recent_matches": 11,
+      "prior_matches": 0,
+      "rank": 9
+    },
+    "chronic_pain": {
+      "share": 0.024813209325344615,
+      "recent_share": 0.019815254258956916,
+      "prior_share": 0.03539133327558315,
+      "change": -0.4401099810323431,
+      "matches": 5,
+      "recent_matches": 3,
+      "prior_matches": 1,
+      "rank": 15
+    },
+    "arthritis": {
+      "share": 0.02173798594818709,
+      "recent_share": 0.02536074894074521,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 7,
+      "recent_matches": 6,
+      "prior_matches": 0,
+      "rank": 17
+    },
+    "neck_pain": {
+      "share": 0.012216337658435827,
+      "recent_share": 0.009541503692651625,
+      "prior_share": 0.01842528449733717,
+      "change": -0.48215162191766614,
+      "matches": 5,
+      "recent_matches": 3,
+      "prior_matches": 1,
+      "rank": 29
+    },
+    "injury_pain": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 58
+    },
+    "tailbone_pain": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 59
+    },
+    "cough": {
+      "share": 0.005544248325185563,
+      "recent_share": 0.0006963042173106139,
+      "prior_share": 0.029538538030347485,
+      "change": -0.9764272620196964,
+      "matches": 2,
+      "recent_matches": 1,
+      "prior_matches": 1,
+      "rank": 39
+    },
+    "infection": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 60
+    },
+    "cold_flu": {
+      "share": 0.03132128056302891,
+      "recent_share": 0.02977270245996056,
+      "prior_share": 0.06979965830041047,
+      "change": -0.5734548967013284,
+      "matches": 11,
+      "recent_matches": 6,
+      "prior_matches": 4,
+      "rank": 10
+    },
+    "breathing": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 61
+    },
+    "headache": {
+      "share": 0.04212374204771302,
+      "recent_share": 0.04723811816472057,
+      "prior_share": 0.021913995903064268,
+      "change": 1.1556140821453376,
+      "matches": 20,
+      "recent_matches": 14,
+      "prior_matches": 2,
+      "rank": 4
+    },
+    "pots": {
+      "share": 0.011648715496755852,
+      "recent_share": 0.004166960019358505,
+      "prior_share": 0.01645101484918967,
+      "change": -0.7467049870443854,
+      "matches": 4,
+      "recent_matches": 1,
+      "prior_matches": 2,
+      "rank": 31
+    },
+    "dizziness": {
+      "share": 0.0021907405118437163,
+      "recent_share": 0.0034656642429008364,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 3,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 49
+    },
+    "numbness": {
+      "share": 0.019765416332873712,
+      "recent_share": 0.030571797258221546,
+      "prior_share": 0.002547262389760055,
+      "change": 11.001824932178002,
+      "matches": 11,
+      "recent_matches": 10,
+      "prior_matches": 1,
+      "rank": 20
+    },
+    "dry_eyes": {
+      "share": 0.005368122266353159,
+      "recent_share": 0.008492155638443374,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 2,
+      "recent_matches": 2,
+      "prior_matches": 0,
+      "rank": 40
+    },
+    "tinnitus": {
+      "share": 0.0028883662113786644,
+      "recent_share": 0.004569280316432154,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 3,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 47
+    },
+    "tremor": {
+      "share": 0.008471271852767307,
+      "recent_share": 0.010404671347780512,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 4,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 35
+    },
+    "pcos": {
+      "share": 0.05010933848945333,
+      "recent_share": 0.04955122932488233,
+      "prior_share": 0.06617567780458217,
+      "change": -0.25121689767639555,
+      "matches": 25,
+      "recent_matches": 16,
+      "prior_matches": 6,
+      "rank": 3
+    },
+    "menopause": {
+      "share": 0.007866251494092197,
+      "recent_share": 0.001967392566603384,
+      "prior_share": 0.031129280123275833,
+      "change": -0.936799291252086,
+      "matches": 3,
+      "recent_matches": 1,
+      "prior_matches": 1,
+      "rank": 36
+    },
+    "fertility": {
+      "share": 0.026604763843500273,
+      "recent_share": 0.03243220139100168,
+      "prior_share": 0.03277498455645388,
+      "change": -0.010458682745121295,
+      "matches": 14,
+      "recent_matches": 10,
+      "prior_matches": 3,
+      "rank": 13
+    },
+    "endometriosis": {
+      "share": 0.025599760755107278,
+      "recent_share": 0.030162246680535867,
+      "prior_share": 0.037810156366699786,
+      "change": -0.20227130541305027,
+      "matches": 12,
+      "recent_matches": 10,
+      "prior_matches": 2,
+      "rank": 14
+    },
+    "period_pain": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 62
+    },
+    "vaginal": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 63
+    },
+    "fatigue": {
+      "share": 0.03758819074557314,
+      "recent_share": 0.036875241909056396,
+      "prior_share": 0.012452189916490244,
+      "change": 1.9613459284156178,
+      "matches": 18,
+      "recent_matches": 12,
+      "prior_matches": 2,
+      "rank": 6
+    },
+    "insomnia": {
+      "share": 0.03438866114888197,
+      "recent_share": 0.014933740006715854,
+      "prior_share": 0.03123488093239789,
+      "change": -0.5218890048264577,
+      "matches": 17,
+      "recent_matches": 7,
+      "prior_matches": 3,
+      "rank": 8
+    },
+    "brain_fog": {
+      "share": 0.0011770908041516808,
+      "recent_share": 0.0018621107742069678,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 1,
+      "recent_matches": 1,
+      "prior_matches": 0,
+      "rank": 52
+    },
+    "night_waking": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 64
+    },
+    "unrefreshing_sleep": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 65
+    },
+    "cfs": {
+      "share": 0.010010642504034195,
+      "recent_share": 0.006072543551876662,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 3,
+      "recent_matches": 2,
+      "prior_matches": 0,
+      "rank": 33
+    },
+    "wrinkles": {
+      "share": 0.0074818391453099166,
+      "recent_share": 0.008870244713865858,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 4,
+      "recent_matches": 3,
+      "prior_matches": 0,
+      "rank": 37
+    },
+    "anti_aging": {
+      "share": 0.007397794427734174,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 2,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 38
+    },
+    "puffy_face": {
+      "share": 0.004073457377142952,
+      "recent_share": 0.006444047344093692,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 1,
+      "recent_matches": 1,
+      "prior_matches": 0,
+      "rank": 44
+    },
+    "double_chin": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 66
+    },
+    "skin_tightening": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 67
+    },
+    "acupuncture_flare": {
+      "share": 0.0016447239262995367,
+      "recent_share": 0.00260188774982877,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 2,
+      "recent_matches": 2,
+      "prior_matches": 0,
+      "rank": 51
+    },
+    "eds": {
+      "share": 0.0023148693143793296,
+      "recent_share": 0.0036620310650489,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 1,
+      "recent_matches": 1,
+      "prior_matches": 0,
+      "rank": 48
+    },
+    "bladder": {
+      "share": 0.0,
+      "recent_share": 0.0,
+      "prior_share": 0.0,
+      "change": null,
+      "matches": 0,
+      "recent_matches": 0,
+      "prior_matches": 0,
+      "rank": 68
+    }
+  },
+  "eligible_posts": 271,
+  "unique_posts": 2145,
+  "excluded_posts": 1874,
+  "score_p95": 128,
+  "comment_p95": 67,
+  "backend": "rdt",
+  "query_matrix": [
+    {
+      "context_term": "traditional Chinese medicine",
+      "query": "\"traditional Chinese medicine\"",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "traditional Chinese medicine",
+      "query": "\"traditional Chinese medicine\"",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "traditional Chinese medicine",
+      "query": "\"traditional Chinese medicine\"",
+      "sort": "new",
+      "page": 2,
+      "returned": 100,
+      "backend": "rdt",
+      "after": "t3_1vgxg5w"
+    },
+    {
+      "context_term": "traditional Chinese medicine",
+      "query": "\"traditional Chinese medicine\"",
+      "sort": "new",
+      "page": 3,
+      "returned": 45,
+      "backend": "rdt",
+      "after": "t3_1uy14z5"
+    },
+    {
+      "context_term": "Chinese medicine",
+      "query": "\"Chinese medicine\"",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "Chinese medicine",
+      "query": "\"Chinese medicine\"",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "Chinese medicine",
+      "query": "\"Chinese medicine\"",
+      "sort": "new",
+      "page": 2,
+      "returned": 100,
+      "backend": "rdt",
+      "after": "t3_1vs5pos"
+    },
+    {
+      "context_term": "Chinese medicine",
+      "query": "\"Chinese medicine\"",
+      "sort": "new",
+      "page": 3,
+      "returned": 47,
+      "backend": "rdt",
+      "after": "t3_1vgsw68"
+    },
+    {
+      "context_term": "TCM",
+      "query": "TCM",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "TCM",
+      "query": "TCM",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "TCM",
+      "query": "TCM",
+      "sort": "new",
+      "page": 2,
+      "returned": 100,
+      "backend": "rdt",
+      "after": "t3_1w0y5iv"
+    },
+    {
+      "context_term": "TCM",
+      "query": "TCM",
+      "sort": "new",
+      "page": 3,
+      "returned": 50,
+      "backend": "rdt",
+      "after": "t3_1vyy7bn"
+    },
+    {
+      "context_term": "acupuncture",
+      "query": "acupuncture",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "acupuncture",
+      "query": "acupuncture",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "acupuncture",
+      "query": "acupuncture",
+      "sort": "new",
+      "page": 2,
+      "returned": 100,
+      "backend": "rdt",
+      "after": "t3_1w06lod"
+    },
+    {
+      "context_term": "acupuncture",
+      "query": "acupuncture",
+      "sort": "new",
+      "page": 3,
+      "returned": 49,
+      "backend": "rdt",
+      "after": "t3_1vxikdr"
+    },
+    {
+      "context_term": "Chinese herbs",
+      "query": "\"Chinese herbs\"",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "Chinese herbs",
+      "query": "\"Chinese herbs\"",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "cupping",
+      "query": "cupping",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "cupping",
+      "query": "cupping",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "cupping",
+      "query": "cupping",
+      "sort": "new",
+      "page": 2,
+      "returned": 16,
+      "backend": "rdt",
+      "after": "t3_1w33xc6"
+    },
+    {
+      "context_term": "gua sha",
+      "query": "\"gua sha\"",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "gua sha",
+      "query": "\"gua sha\"",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "gua sha",
+      "query": "\"gua sha\"",
+      "sort": "new",
+      "page": 2,
+      "returned": 100,
+      "backend": "rdt",
+      "after": "t3_1vj0ruw"
+    },
+    {
+      "context_term": "gua sha",
+      "query": "\"gua sha\"",
+      "sort": "new",
+      "page": 3,
+      "returned": 48,
+      "backend": "rdt",
+      "after": "t3_1ur9ft2"
+    },
+    {
+      "context_term": "moxibustion",
+      "query": "moxibustion",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "moxibustion",
+      "query": "moxibustion",
+      "sort": "new",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "tui na",
+      "query": "\"tui na\"",
+      "sort": "top",
+      "page": 1,
+      "returned": 58,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "tui na",
+      "query": "\"tui na\"",
+      "sort": "new",
+      "page": 1,
+      "returned": 58,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "acupressure",
+      "query": "acupressure",
+      "sort": "top",
+      "page": 1,
+      "returned": 100,
+      "backend": "rdt",
+      "after": null
+    },
+    {
+      "context_term": "acupressure",
+      "query": "acupressure",
+      "sort": "new",
+      "page": 1,
+      "returned": 0,
+      "backend": "rdt",
+      "after": null
+    }
+  ],
+  "windows": {
+    "prior_start": "2026-07-06T00:00:00+00:00",
+    "recent_start": "2026-08-03T00:00:00+00:00",
+    "current_week_start": "2026-08-31T00:00:00+00:00"
+  },
+  "main_window": {
+    "months": 3,
+    "cutoff": "2026-05-31T06:59:00.505462+00:00",
+    "collected_at": "2026-08-31T06:59:00.505462+00:00"
+  },
+  "momentum_weeks": 4,
+  "representative_links": [
+    "https://www.reddit.com/r/skeptic/comments/1ufurqv/i_thought_the_mayo_clinic_was_reputable_mayo/",
+    "https://www.reddit.com/r/backpain/comments/1w2nb8i/neurosurgeon_here_what_actually_causes_back_pain/",
+    "https://www.reddit.com/r/endometriosis/comments/1w11lpo/so_sick_and_tired_of_all_the_information_online/",
+    "https://www.reddit.com/r/Sciatica/comments/1vwsp0l/after_13_months_of_sciatica_a_chiropractor_pt/",
+    "https://www.reddit.com/r/ChatGPT/comments/1uahhpq/chatgpt_fixed_my_9_year_chronic_pain/",
+    "https://www.reddit.com/r/AutismInWomen/comments/1ue0xk1/stuff_that_actually_helps/",
+    "https://www.reddit.com/r/lupus/comments/1u6yf8r/rate_my_chronic_illness_bedside/",
+    "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1uc233v/what_wellness_product_sounded_fake_but_actually/",
+    "https://www.reddit.com/r/malaysians/comments/1uqf2sk/fat_obese_overweight/",
+    "https://www.reddit.com/r/GLP1ResearchTalk/comments/1v66gtd/has_anyone_elses_chronic_pain_disappeared_on_a/",
+    "https://www.reddit.com/r/ChronicPain/comments/1u6ym26/rate_my_chronic_illnesspain_bedside/",
+    "https://www.reddit.com/r/emotionalneglect/comments/1vx1liv/i_want_to_die/",
+    "https://www.reddit.com/r/lipedema/comments/1ubra6r/muscle_toning_fascia_and_adding_gua_sha/",
+    "https://www.reddit.com/r/TeensofKerala/comments/1w1rrwe/improving_physical_attractiveness_for_beginners/",
+    "https://www.reddit.com/r/DorjeChangBuddhaIII__/comments/1tyovyl/hh_dorje_chang_buddha_iii_healing_accomplishments/",
+    "https://www.reddit.com/r/EyeFloaters/comments/1u98kki/eye_floater_success_story_for_everyone_who_needs/",
+    "https://www.reddit.com/r/cfs/comments/1w0571f/my_rant_against_integrative_doctors_and_doctors/",
+    "https://www.reddit.com/r/TheGirlSurvivalGuide/comments/1twklo5/changed_one_thing_about_my_morning_and_somehow/",
+    "https://www.reddit.com/r/cfs/comments/1vafmop/looking_for_sleep_suggestions_that_i_can_discuss/",
+    "https://www.reddit.com/r/Denver/comments/1vkqtfo/do_people_actually_like_the_woodhouse/"
+  ]
+}

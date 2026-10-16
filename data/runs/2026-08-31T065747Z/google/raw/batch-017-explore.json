@@ -1,0 +1,823 @@
+{
+  "widgets": [
+    {
+      "request": {
+        "time": "2026-05-31 2026-08-31",
+        "resolution": "DAY",
+        "locale": "en-US",
+        "comparisonItem": [
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "skin tightening"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "pain after acupuncture"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "Ehlers Danlos syndrome"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "frequent urination"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "lineAnnotationText": "Search interest",
+      "bullets": [
+        {
+          "text": "skin tightening"
+        },
+        {
+          "text": "pain after acupuncture"
+        },
+        {
+          "text": "Ehlers Danlos syndrome"
+        },
+        {
+          "text": "frequent urination"
+        },
+        {
+          "text": "headache"
+        }
+      ],
+      "showLegend": false,
+      "showAverages": true,
+      "helpDialog": {
+        "title": "Interest over time",
+        "content": "Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term."
+      },
+      "token": "ANI_2wMAAAAAapZ3rB8hw9i_fIsUOAczWjajmspSD1cr",
+      "id": "TIMESERIES",
+      "type": "fe_line_chart",
+      "title": "Interest over time",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "skin tightening"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "pain after acupuncture"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "Ehlers Danlos syndrome"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "frequent urination"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "dataMode": "PERCENTAGES",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "showLegend": false,
+      "helpDialog": {
+        "title": "Compared breakdown by region",
+        "content": "See which term ranked highest in each region during the specified time frame. Values are scaled from 0 to 100, where 100 is the region with peak popularity, a value of 50 is the region where the term is half as popular, and a value of 0 means that term was less than 1% as popular as the peak."
+      },
+      "bullets": [
+        {
+          "value": "skin tightening",
+          "color": "PALETTE_COLOR_1"
+        },
+        {
+          "value": "pain after acupuncture",
+          "color": "PALETTE_COLOR_2"
+        },
+        {
+          "value": "Ehlers Danlos syndrome",
+          "color": "PALETTE_COLOR_3"
+        },
+        {
+          "value": "frequent urination",
+          "color": "PALETTE_COLOR_4"
+        },
+        {
+          "value": "headache",
+          "color": "PALETTE_COLOR_5"
+        }
+      ],
+      "token": "ANI_2wMAAAAAapZ3rKjzBfwcCeUrXV-eAgZ5eHVkBDWT",
+      "id": "GEO_MAP",
+      "type": "fe_multi_heat_map",
+      "title": "Compared breakdown by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "skin tightening"
+      },
+      "id": "TITLE_0",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "skin tightening"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_1",
+      "index": 0,
+      "bullet": "skin tightening",
+      "token": "ANI_2wMAAAAAapZ3rB2EoDifkLmBO_cxqMR-rCZDpnPq",
+      "id": "GEO_MAP_0",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "skin tightening"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_1",
+      "keywordName": "skin tightening",
+      "token": "ANI_2wMAAAAAapZ3rES4yq7CDKkwrB4ryipFqNBWmk4T",
+      "id": "RELATED_QUERIES_0",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "pain after acupuncture"
+      },
+      "id": "TITLE_1",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "pain after acupuncture"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_2",
+      "index": 1,
+      "bullet": "pain after acupuncture",
+      "token": "ANI_2wMAAAAAapZ3rEkQKGXd4LZNnDnG7pQwmVGwm0j-",
+      "id": "GEO_MAP_1",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "pain after acupuncture"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_2",
+      "keywordName": "pain after acupuncture",
+      "token": "ANI_2wMAAAAAapZ3rM6AKr9q79lJTCfh-WYy_5rR9LZ9",
+      "id": "RELATED_QUERIES_1",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "Ehlers Danlos syndrome"
+      },
+      "id": "TITLE_2",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "Ehlers Danlos syndrome"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_3",
+      "index": 2,
+      "bullet": "Ehlers Danlos syndrome",
+      "token": "ANI_2wMAAAAAapZ3rE7Dpzb1G1P3veHgWWBuhy9llYwx",
+      "id": "GEO_MAP_2",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "Ehlers Danlos syndrome"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_3",
+      "keywordName": "Ehlers Danlos syndrome",
+      "token": "ANI_2wMAAAAAapZ3rDCeLN5aqUMi63nrzNKFbVe_SB-i",
+      "id": "RELATED_QUERIES_2",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "frequent urination"
+      },
+      "id": "TITLE_3",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "frequent urination"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_4",
+      "index": 3,
+      "bullet": "frequent urination",
+      "token": "ANI_2wMAAAAAapZ3rKD5z9DJw99dBaJsRJZ4yzI3mMCd",
+      "id": "GEO_MAP_3",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "frequent urination"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_4",
+      "keywordName": "frequent urination",
+      "token": "ANI_2wMAAAAAapZ3rOIFENUDo3UwCbhpc0iIFcZeVmjx",
+      "id": "RELATED_QUERIES_3",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "headache"
+      },
+      "id": "TITLE_4",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_5",
+      "index": 4,
+      "bullet": "headache",
+      "token": "ANI_2wMAAAAAapZ3rPk-iuKcIby1QMapCZ09vixVlOUr",
+      "id": "GEO_MAP_4",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "headache"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_5",
+      "keywordName": "headache",
+      "token": "ANI_2wMAAAAAapZ3rNShThaTLjOo4j9g_OZ5p7_56e2k",
+      "id": "RELATED_QUERIES_4",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "skin tightening",
+      "name": "skin tightening",
+      "type": "Search term"
+    },
+    {
+      "keyword": "pain after acupuncture",
+      "name": "pain after acupuncture",
+      "type": "Search term"
+    },
+    {
+      "keyword": "Ehlers Danlos syndrome",
+      "name": "Ehlers Danlos syndrome",
+      "type": "Search term"
+    },
+    {
+      "keyword": "frequent urination",
+      "name": "frequent urination",
+      "type": "Search term"
+    },
+    {
+      "keyword": "headache",
+      "name": "headache",
+      "type": "Search term"
+    }
+  ],
+  "timeRanges": [
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days"
+  ],
+  "shareText": "Explore search interest for skin tightening, pain after acupuncture, Ehlers Danlos syndrome, frequent urination, headache by time, location and popularity on Google Trends",
+  "shouldShowMultiHeatMapMessage": false
+}

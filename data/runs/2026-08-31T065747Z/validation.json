@@ -1,0 +1,10 @@
+{
+  "google_zero_rate": 0.04411764705882353,
+  "google_zero_rate_ok": true,
+  "google_min_points": 93,
+  "google_points_ok": true,
+  "reddit_eligible_posts": 271,
+  "reddit_posts_ok": true,
+  "all_required_fields_ok": true,
+  "passed": true
+}

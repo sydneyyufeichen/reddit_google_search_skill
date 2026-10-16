@@ -1,0 +1,90 @@
+{
+  "run_id": "2026-08-31T065747Z",
+  "started_at": "2026-08-31T06:57:47.972318+00:00",
+  "mode": "full",
+  "taxonomy_version": "2026-08-31.2",
+  "problem_count": 68,
+  "config": {
+    "google": {
+      "geo": "",
+      "hl": "en-US",
+      "timezone_minutes": 0,
+      "timeframe": "today 3-m",
+      "momentum_weeks": 4,
+      "property": "",
+      "category": 0,
+      "anchor": "headache",
+      "batch_size": 4,
+      "request_delay_seconds": 3.0,
+      "max_retries": 4
+    },
+    "reddit": {
+      "backend": "auto",
+      "time_filter": "year",
+      "window_months": 3,
+      "momentum_weeks": 4,
+      "max_pages_new": 4,
+      "max_pages_top": 1,
+      "sorts": [
+        "top",
+        "new"
+      ],
+      "results_per_query": 100,
+      "tcm_context_terms": [
+        "traditional Chinese medicine",
+        "Chinese medicine",
+        "TCM",
+        "acupuncture",
+        "Chinese herbs",
+        "cupping",
+        "gua sha",
+        "moxibustion",
+        "tui na",
+        "acupressure"
+      ],
+      "excluded_substrings": [
+        "school admission",
+        "licensing exam",
+        "clinic marketing",
+        "seo service",
+        "job opening"
+      ],
+      "excluded_subreddit_patterns": [
+        "drama",
+        "television",
+        "movies",
+        "gaming",
+        "silenthill",
+        "squaredcircle",
+        "dogs",
+        "cats",
+        "pets",
+        "germanshepherd",
+        "pug",
+        "retriever",
+        "shepherd",
+        "husky",
+        "canine",
+        "veterin",
+        "animal",
+        "bestofredditorupdates",
+        "borupdates",
+        "amitheasshole",
+        "aita"
+      ],
+      "require_personal_demand_signal": true
+    },
+    "validation": {
+      "max_google_zero_rate": 0.25,
+      "min_google_points": 80,
+      "min_reddit_posts_full": 20,
+      "min_reddit_posts_smoke": 3,
+      "low_base_matches": 5
+    }
+  },
+  "status": "completed",
+  "finished_at": "2026-08-31T07:01:20.320560+00:00",
+  "report": "/Users/chenyufei/Documents/ChatGPT/reddit_google_search_skill/reports/report_2026-08-31.md",
+  "reprocessed_at": "2026-08-31T07:07:39.026838+00:00",
+  "reprocess_reason": "reddit_full_term_boundary_fix"
+}

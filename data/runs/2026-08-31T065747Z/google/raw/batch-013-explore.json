@@ -1,0 +1,823 @@
+{
+  "widgets": [
+    {
+      "request": {
+        "time": "2026-05-31 2026-08-31",
+        "resolution": "DAY",
+        "locale": "en-US",
+        "comparisonItem": [
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "PCOS"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "menopause"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "fertility"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "endometriosis"
+                }
+              ]
+            }
+          },
+          {
+            "geo": {},
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "lineAnnotationText": "Search interest",
+      "bullets": [
+        {
+          "text": "PCOS"
+        },
+        {
+          "text": "menopause"
+        },
+        {
+          "text": "fertility"
+        },
+        {
+          "text": "endometriosis"
+        },
+        {
+          "text": "headache"
+        }
+      ],
+      "showLegend": false,
+      "showAverages": true,
+      "helpDialog": {
+        "title": "Interest over time",
+        "content": "Numbers represent search interest relative to the highest point on the chart for the given region and time. A value of 100 is the peak popularity for the term. A value of 50 means that the term is half as popular. A score of 0 means there was not enough data for this term."
+      },
+      "token": "ANI_2wMAAAAAapZ3nUyE14-oFduw9tolxy1P9fSKC7cP",
+      "id": "TIMESERIES",
+      "type": "fe_line_chart",
+      "title": "Interest over time",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "PCOS"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "menopause"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "fertility"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "endometriosis"
+                }
+              ]
+            }
+          },
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "dataMode": "PERCENTAGES",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "showLegend": false,
+      "helpDialog": {
+        "title": "Compared breakdown by region",
+        "content": "See which term ranked highest in each region during the specified time frame. Values are scaled from 0 to 100, where 100 is the region with peak popularity, a value of 50 is the region where the term is half as popular, and a value of 0 means that term was less than 1% as popular as the peak."
+      },
+      "bullets": [
+        {
+          "value": "PCOS",
+          "color": "PALETTE_COLOR_1"
+        },
+        {
+          "value": "menopause",
+          "color": "PALETTE_COLOR_2"
+        },
+        {
+          "value": "fertility",
+          "color": "PALETTE_COLOR_3"
+        },
+        {
+          "value": "endometriosis",
+          "color": "PALETTE_COLOR_4"
+        },
+        {
+          "value": "headache",
+          "color": "PALETTE_COLOR_5"
+        }
+      ],
+      "token": "ANI_2wMAAAAAapZ3nQqsvE7VxDjt9DxTwqbqCQl6UbVX",
+      "id": "GEO_MAP",
+      "type": "fe_multi_heat_map",
+      "title": "Compared breakdown by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "PCOS"
+      },
+      "id": "TITLE_0",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "PCOS"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_1",
+      "index": 0,
+      "bullet": "PCOS",
+      "token": "ANI_2wMAAAAAapZ3nVohxnsKPJemJ9XUFBDZh-kYNA3N",
+      "id": "GEO_MAP_0",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "PCOS"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_1",
+      "keywordName": "PCOS",
+      "token": "ANI_2wMAAAAAapZ3ndCkUdno-8qKacPGYIja6icGDaSC",
+      "id": "RELATED_QUERIES_0",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "menopause"
+      },
+      "id": "TITLE_1",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "menopause"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_2",
+      "index": 1,
+      "bullet": "menopause",
+      "token": "ANI_2wMAAAAAapZ3nd2RvcJAKbN_nxP26NfxJNyNT7oW",
+      "id": "GEO_MAP_1",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "menopause"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_2",
+      "keywordName": "menopause",
+      "token": "ANI_2wMAAAAAapZ3ncl1kLNbSHuTwpfSJr4Gy4-Uo9GI",
+      "id": "RELATED_QUERIES_1",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "fertility"
+      },
+      "id": "TITLE_2",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "fertility"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_3",
+      "index": 2,
+      "bullet": "fertility",
+      "token": "ANI_2wMAAAAAapZ3nbNC5b15rDDq9_vEshrj2zQai8T4",
+      "id": "GEO_MAP_2",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "fertility"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_3",
+      "keywordName": "fertility",
+      "token": "ANI_2wMAAAAAapZ3nVfDrGLZxeMpmZPJepv_2oG_oVQB",
+      "id": "RELATED_QUERIES_2",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "endometriosis"
+      },
+      "id": "TITLE_3",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "endometriosis"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_4",
+      "index": 3,
+      "bullet": "endometriosis",
+      "token": "ANI_2wMAAAAAapZ3nU3ZkdmMmYt0Md1sdiXa9cwvKxS6",
+      "id": "GEO_MAP_3",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "endometriosis"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_4",
+      "keywordName": "endometriosis",
+      "token": "ANI_2wMAAAAAapZ3nfxp1L3c1V1hSraHFIlQdENQ3Ygm",
+      "id": "RELATED_QUERIES_3",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "text": {
+        "text": "headache"
+      },
+      "id": "TITLE_4",
+      "type": "fe_text",
+      "title": "",
+      "template": "fe_explore",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": true,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "geo": {},
+        "comparisonItem": [
+          {
+            "time": "2026-05-31 2026-08-31",
+            "complexKeywordsRestriction": {
+              "keyword": [
+                {
+                  "type": "BROAD",
+                  "value": "headache"
+                }
+              ]
+            }
+          }
+        ],
+        "resolution": "COUNTRY",
+        "locale": "en-US",
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "geo": "world",
+      "resolution": "countries",
+      "searchInterestLabel": "Search interest",
+      "displayMode": "regions",
+      "helpDialog": {
+        "title": "Interest by region",
+        "content": "See in which location your term was most popular during the specified time frame. Values are calculated on a scale from 0 to 100, where 100 is the location with the most popularity as a fraction of total searches in that location, a value of 50 indicates a location which is half as popular. A value of 0 indicates a location where there was not enough data for this term. <p><p> <b>Note:</b> A higher value means a higher proportion of all queries, not a higher absolute query count. So a tiny country where 80% of the queries are for \"bananas\" will get twice the score of a giant country where only 40% of the queries are for \"bananas\".",
+        "url": "https://support.google.com/trends/answer/4355212"
+      },
+      "color": "PALETTE_COLOR_5",
+      "index": 4,
+      "bullet": "headache",
+      "token": "ANI_2wMAAAAAapZ3nSlP4vR2rCFLBTN-KSSxwDXLk7P4",
+      "id": "GEO_MAP_4",
+      "type": "fe_geo_chart_explore",
+      "title": "Interest by region",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    },
+    {
+      "request": {
+        "restriction": {
+          "geo": {},
+          "time": "2026-05-31 2026-08-31",
+          "originalTimeRangeForExploreUrl": "today 3-m",
+          "complexKeywordsRestriction": {
+            "keyword": [
+              {
+                "type": "BROAD",
+                "value": "headache"
+              }
+            ]
+          }
+        },
+        "keywordType": "QUERY",
+        "metric": [
+          "TOP",
+          "RISING"
+        ],
+        "trendinessSettings": {
+          "compareTime": "2026-02-27 2026-05-30"
+        },
+        "requestOptions": {
+          "property": "",
+          "backend": "IZG",
+          "category": 0
+        },
+        "language": "en",
+        "userCountryCode": "US",
+        "userConfig": {
+          "userType": "USER_TYPE_SCRAPER"
+        }
+      },
+      "helpDialog": {
+        "title": "Related queries",
+        "content": "Users searching for your term also searched for these queries. You can sort by the following metrics: <p>* <b>Top</b> - The most popular search queries. Scoring is on a relative scale where a value of 100 is the most commonly searched query, 50 is a query searched half as often as the most popular query, and so on. <p>* <b>Rising</b> - Queries with the biggest increase in search frequency since the last time period. Results marked \"Breakout\" had a tremendous increase, probably because these queries are new and had few (if any) prior searches.",
+        "url": "https://support.google.com/trends/answer/4355000"
+      },
+      "color": "PALETTE_COLOR_5",
+      "keywordName": "headache",
+      "token": "ANI_2wMAAAAAapZ3nW7DUiSuO9NhdWKj2d4h2jVDyXgy",
+      "id": "RELATED_QUERIES_4",
+      "type": "fe_related_searches",
+      "title": "Related queries",
+      "template": "fe",
+      "embedTemplate": "fe_embed",
+      "version": "1",
+      "isLong": false,
+      "isCurated": false
+    }
+  ],
+  "keywords": [
+    {
+      "keyword": "PCOS",
+      "name": "PCOS",
+      "type": "Search term"
+    },
+    {
+      "keyword": "menopause",
+      "name": "menopause",
+      "type": "Search term"
+    },
+    {
+      "keyword": "fertility",
+      "name": "fertility",
+      "type": "Search term"
+    },
+    {
+      "keyword": "endometriosis",
+      "name": "endometriosis",
+      "type": "Search term"
+    },
+    {
+      "keyword": "headache",
+      "name": "headache",
+      "type": "Search term"
+    }
+  ],
+  "timeRanges": [
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days",
+    "Past 90 days"
+  ],
+  "shareText": "Explore search interest for PCOS, menopause, fertility, endometriosis, headache by time, location and popularity on Google Trends",
+  "shouldShowMultiHeatMapMessage": false
+}

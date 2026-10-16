@@ -1,0 +1,281 @@
+[
+  {
+    "context_term": "traditional Chinese medicine",
+    "query": "\"traditional Chinese medicine\"",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "traditional Chinese medicine",
+    "query": "\"traditional Chinese medicine\"",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "traditional Chinese medicine",
+    "query": "\"traditional Chinese medicine\"",
+    "sort": "new",
+    "page": 2,
+    "returned": 100,
+    "backend": "rdt",
+    "after": "t3_1vgxg5w"
+  },
+  {
+    "context_term": "traditional Chinese medicine",
+    "query": "\"traditional Chinese medicine\"",
+    "sort": "new",
+    "page": 3,
+    "returned": 45,
+    "backend": "rdt",
+    "after": "t3_1uy14z5"
+  },
+  {
+    "context_term": "Chinese medicine",
+    "query": "\"Chinese medicine\"",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "Chinese medicine",
+    "query": "\"Chinese medicine\"",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "Chinese medicine",
+    "query": "\"Chinese medicine\"",
+    "sort": "new",
+    "page": 2,
+    "returned": 100,
+    "backend": "rdt",
+    "after": "t3_1vs5pos"
+  },
+  {
+    "context_term": "Chinese medicine",
+    "query": "\"Chinese medicine\"",
+    "sort": "new",
+    "page": 3,
+    "returned": 47,
+    "backend": "rdt",
+    "after": "t3_1vgsw68"
+  },
+  {
+    "context_term": "TCM",
+    "query": "TCM",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "TCM",
+    "query": "TCM",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "TCM",
+    "query": "TCM",
+    "sort": "new",
+    "page": 2,
+    "returned": 100,
+    "backend": "rdt",
+    "after": "t3_1w0y5iv"
+  },
+  {
+    "context_term": "TCM",
+    "query": "TCM",
+    "sort": "new",
+    "page": 3,
+    "returned": 50,
+    "backend": "rdt",
+    "after": "t3_1vyy7bn"
+  },
+  {
+    "context_term": "acupuncture",
+    "query": "acupuncture",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "acupuncture",
+    "query": "acupuncture",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "acupuncture",
+    "query": "acupuncture",
+    "sort": "new",
+    "page": 2,
+    "returned": 100,
+    "backend": "rdt",
+    "after": "t3_1w06lod"
+  },
+  {
+    "context_term": "acupuncture",
+    "query": "acupuncture",
+    "sort": "new",
+    "page": 3,
+    "returned": 49,
+    "backend": "rdt",
+    "after": "t3_1vxikdr"
+  },
+  {
+    "context_term": "Chinese herbs",
+    "query": "\"Chinese herbs\"",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "Chinese herbs",
+    "query": "\"Chinese herbs\"",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "cupping",
+    "query": "cupping",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "cupping",
+    "query": "cupping",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "cupping",
+    "query": "cupping",
+    "sort": "new",
+    "page": 2,
+    "returned": 16,
+    "backend": "rdt",
+    "after": "t3_1w33xc6"
+  },
+  {
+    "context_term": "gua sha",
+    "query": "\"gua sha\"",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "gua sha",
+    "query": "\"gua sha\"",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "gua sha",
+    "query": "\"gua sha\"",
+    "sort": "new",
+    "page": 2,
+    "returned": 100,
+    "backend": "rdt",
+    "after": "t3_1vj0ruw"
+  },
+  {
+    "context_term": "gua sha",
+    "query": "\"gua sha\"",
+    "sort": "new",
+    "page": 3,
+    "returned": 48,
+    "backend": "rdt",
+    "after": "t3_1ur9ft2"
+  },
+  {
+    "context_term": "moxibustion",
+    "query": "moxibustion",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "moxibustion",
+    "query": "moxibustion",
+    "sort": "new",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "tui na",
+    "query": "\"tui na\"",
+    "sort": "top",
+    "page": 1,
+    "returned": 58,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "tui na",
+    "query": "\"tui na\"",
+    "sort": "new",
+    "page": 1,
+    "returned": 58,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "acupressure",
+    "query": "acupressure",
+    "sort": "top",
+    "page": 1,
+    "returned": 100,
+    "backend": "rdt",
+    "after": null
+  },
+  {
+    "context_term": "acupressure",
+    "query": "acupressure",
+    "sort": "new",
+    "page": 1,
+    "returned": 0,
+    "backend": "rdt",
+    "after": null
+  }
+]
